@@ -11,20 +11,20 @@ Welcome to my project! Here you will find all the code which is needed for:
   
 ## Tree
 
-│   .gitignore  
-│   CHANGELOG.MD (**PENDING**)  
-│   README.md  
-│   requirements.txt  
-│   test_requirements.txt (**PENDING**)  
+│   * .gitignore  
+│   * CHANGELOG.MD (**PENDING**)  
+│   * README.md  
+│   * requirements.txt  
+│   * test_requirements.txt (**PENDING**)  
 │  
 ├───src  
-│   │   data_cleaning.ipynb  
-│   │   pre_data_cleaning.ipynb  
-│   │   tweepy_test.ipynb  
+│   │   * data_cleaning.ipynb  
+│   │   * pre_data_cleaning.ipynb  
+│   │   * tweepy_test.ipynb  
 │   │  
 │   ├───utils  
-│   │       **PENDING**  
+│   │       * **PENDING**  
 │  
 └───tests  
-    │   **PENDING**  
+    │   * **PENDING**  
 
