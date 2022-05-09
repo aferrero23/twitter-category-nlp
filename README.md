@@ -21,9 +21,9 @@ Welcome to my project! Here you will find all the code which is needed for:
 │  
 │  
 ├───src  
-│   │   classification_model.ipynb  
-│   │   pre_processing.ipynb  
-│   │   twitter_extractor.ipynb  
+│    │   classification_model.ipynb  
+│    │   pre_processing.ipynb  
+│    │   twitter_extractor.ipynb  
 
  
 
