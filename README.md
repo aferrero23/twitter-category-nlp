@@ -10,20 +10,20 @@ Welcome to my project! Here you will find all the code which is needed for:
   
 ## Tree
 
-│   .gitignore  
-│   CHANGELOG.MD (**PENDING**) 
+│   .gitignore
+│   CHANGELOG.MD (**PENDING**)
 │   new_ideas.md
-│   README.md  
-│   requirements.txt  
+│   README.md
+│   requirements.txt
 │  
 ───data
-│ 
-│ 
-│ 
-├───src  
-│   │   classification_model.ipynb  
-│   │   pre_processing.ipynb  
-│   │   twitter_extractor.ipynb  
+│
+│
+│
+├───src
+│   │   classification_model.ipynb
+│   │   pre_processing.ipynb
+│   │   twitter_extractor.ipynb
 
  
 
