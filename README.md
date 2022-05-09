@@ -15,15 +15,15 @@ Welcome to my project! Here you will find all the code which is needed for:
 │   new_ideas.md  
 │   README.md  
 │   requirements.txt  
+│   
+───data  
 │  
-───data
-│
-│
-│
-├───src
-│   │   classification_model.ipynb
-│   │   pre_processing.ipynb
-│   │   twitter_extractor.ipynb
+│  
+│  
+├───src  
+│   │   classification_model.ipynb  
+│   │   pre_processing.ipynb  
+│   │   twitter_extractor.ipynb  
 
  
 
