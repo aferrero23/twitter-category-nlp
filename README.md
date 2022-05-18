@@ -16,7 +16,7 @@ Welcome to my project! Here you will find all the code which is needed for:
 │   README.md  
 │   requirements.txt  
 │   
-───data  
+│───data  
 │  
 │  
 │  
