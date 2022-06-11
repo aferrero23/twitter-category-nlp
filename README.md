@@ -19,8 +19,8 @@ Welcome to my project! Here you will find all the code which is needed for:
 │───data  
 │  
 ├───src  
-│    │   classification_model.ipynb  
-│    │   pre_processing.ipynb  
+│    │   model.ipynb  
+│    │   EDA.ipynb  
 │    │   twitter_extractor.ipynb  
 
  
