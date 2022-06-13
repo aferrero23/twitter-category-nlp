@@ -1,4 +1,7 @@
-<p><img src="./imgs/rep_wordcloud_black.png" alt="rep_wordcloud" title="rep_wordcloud" style="width: 300px"></p>
+<p float="left">
+  <img src="./imgs/rep_wordcloud_black.png" width="100" />
+  <img src="./imgs/dem_wordcloud_black.png" width="100" /> 
+</p>
 
 # Master Thesis in Data Science - Kschool
 
