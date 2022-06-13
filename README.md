@@ -1,4 +1,4 @@
-![alt text](https://github.com/alexferrero23/twitter-category-nlp/blob/develop/rep_wordcloud.png?raw=true)
+<p><img src="./imgs/rep_wordcloud.png" alt="rep_wordcloud" title="rep_wordcloud" width="200" align="right"></p>
 
 # Master Thesis in Data Science - Kschool
 
