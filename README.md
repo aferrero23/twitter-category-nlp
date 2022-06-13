@@ -11,8 +11,7 @@ Welcome to my project! Here you will find all the code which is needed for:
 ## Tree
 
 │   .gitignore  
-│   CHANGELOG.MD (**PENDING**)  
-│   new_ideas.md  
+│   CHANGELOG.MD
 │   README.md  
 │   requirements.txt  
 │   
