@@ -30,7 +30,7 @@ In order to replicate the project, the steps are the following:
 │   requirements.txt  
 │   
 │───data  
-│
+│  
 │───imgs  
 │  
 ├───src  
