@@ -11,16 +11,16 @@ Welcome to my project! Here you will find all the code which is needed for:
 ## Tree
 
 │   .gitignore  
-│   CHANGELOG.MD
+│   CHANGELOG.MD  
 │   README.md  
 │   requirements.txt  
 │   
 │───data  
 │  
 ├───src  
-│    │   model.ipynb  
-│    │   EDA.ipynb  
-│    │   twitter_extractor.ipynb  
+│   ├──   model.ipynb  
+│   ├── EDA.ipynb  
+│   ├── twitter_extractor.ipynb  
 
  
 
