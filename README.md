@@ -1,4 +1,6 @@
-# twitter-category-nlp
+![alt text](rep_wordcloud.png)
+
+# Master Thesis in Data Science - Kschool
 
 This project aims to classify tweets between democrats or republicans from EEUU congress members.
 
