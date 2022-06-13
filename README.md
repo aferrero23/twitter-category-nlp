@@ -1,4 +1,4 @@
-![alt text(https://github.com/alexferrero23/twitter-category-nlp/blob/develop/rep_wordcloud.png?raw=true)
+![alt text](https://github.com/alexferrero23/twitter-category-nlp/blob/develop/rep_wordcloud.png?raw=true)
 
 # Master Thesis in Data Science - Kschool
 
