@@ -1,6 +1,6 @@
 <p float="left">
-  <img src="./imgs/rep_wordcloud_black.png" width="100" />
-  <img src="./imgs/dem_wordcloud_black.png" width="100" /> 
+  <img src="./imgs/rep_wordcloud_black.png" width="300" />
+  <img src="./imgs/dem_wordcloud_black.png" width="300" /> 
 </p>
 
 # Master Thesis in Data Science - Kschool
