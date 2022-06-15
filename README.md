@@ -33,6 +33,9 @@ In order to replicate the project, the steps are the following:
 │  
 │───imgs  
 │  
+│───model  
+│  
+│  
 ├───src  
 │   ├──   model.ipynb  
 │   ├── EDA.ipynb  
