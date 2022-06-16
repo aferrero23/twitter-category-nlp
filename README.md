@@ -13,6 +13,7 @@ Welcome to my project! Here you will find all the code which is needed for:
   * 1- Download tweets from a particular user (you will need you personal tokens from [Twitter Developer Portal](https://developer.twitter.com/en)). Info from Members of Congress can be found [here](https://triagecancer.org/congressional-social-media)
   * 2- Data cleaning, data engineering and data visualizacions
   * 3- NLP algorithms and conclusions  
+  * 4- Frontend with streamlit to try your own tweet
 
 In order to replicate the project, the steps are the following:
 
@@ -21,6 +22,11 @@ In order to replicate the project, the steps are the following:
 * 1- Execute notebook src/twitter_extractor.ipynb. **Disclimer: it will not work with twitter developer keys**
 * 2- Execute notebook src/EDA.ipynb (this notebook will download an orc table, which will be used in the next notebook)
 * 3- Execute notebook src/model.ipynb (make sure this notebook is reading orc table downloaded in the previous step)
+* 4- In order to use the frontend visualization, donwload the repository to local, then execute the following steps in de cli (linux):
+```
+cd twitter-category-nlp/frontend/
+streamlit run app.py
+```
   
 ## Tree
 
@@ -33,15 +39,11 @@ In order to replicate the project, the steps are the following:
 │  
 │───imgs  
 │  
-│───model  
-│  
 │───frontend  
+│  
+│───model  
 │  
 ├───src  
 │   ├──   model.ipynb  
 │   ├── EDA.ipynb  
 │   ├── twitter_extractor.ipynb  
-
- 
-
-
