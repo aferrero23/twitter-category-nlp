@@ -53,12 +53,13 @@ tweet = st.text_input("Enter your tweet", "")
 if(st.button('Submit')):
     pred_word, confidence = process_tweet(tweet, model, vectorizer)
     result = f'Your tweet is {pred_word} with a confidence of {confidence:.2%}'
-    st.info(result)
     if pred_word == 'Republican':
+        st.error(result)
         img = Image.open("../imgs/trumpmeme2.jpg")
  
         st.image(img, width=500)
     else:
+        st.info(result)
         img = Image.open("../imgs/bidenmeme.jpg")
  
         st.image(img, width=500)
