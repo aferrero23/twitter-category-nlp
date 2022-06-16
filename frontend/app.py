@@ -30,7 +30,7 @@ def process_tweet(tweet, model, vectorizer):
     pred_word = 'Republican' if pred==0 else 'Democrat'
     confidence = max(model.predict_proba(tfidf_custom_test)[0])
 
-    return f'Your tweet is {pred_word} with a confidence of {confidence:.2%}'
+    return pred_word, confidence
 
 model = pickle.load(open('../model/logistic_regression_model.pkl', 'rb'))
 vectorizer = pickle.load(open('../model/vectorizer.pkl', 'rb'))
@@ -40,12 +40,6 @@ st.title("Political party classification with tweets")
 
 # Subheader
 st.subheader("Try it yourself!")
-
-img = Image.open("../imgs/trumpmeme2.jpg")
- 
-# display image using streamlit
-# width is used to set the width of an image
-st.image(img, width=500)
 
 # Text Input
  
@@ -57,8 +51,18 @@ tweet = st.text_input("Enter your tweet", "")
 # display the name when the submit button is clicked
 # .title() is used to get the input text string
 if(st.button('Submit')):
-    result = process_tweet(tweet, model, vectorizer)
+    pred_word, confidence = process_tweet(tweet, model, vectorizer)
+    result = f'Your tweet is {pred_word} with a confidence of {confidence:.2%}'
     st.info(result)
+    if pred_word == 'Republican':
+        img = Image.open("../imgs/trumpmeme2.jpg")
+ 
+        st.image(img, width=500)
+    else:
+        img = Image.open("../imgs/bidenmeme.jpg")
+ 
+        st.image(img, width=500)
+
 
 
 
