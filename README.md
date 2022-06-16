@@ -22,7 +22,7 @@ In order to replicate the project, the steps are the following:
 * 1- Execute notebook src/twitter_extractor.ipynb. **Disclimer: it will not work with twitter developer keys**
 * 2- Execute notebook src/EDA.ipynb (this notebook will download an orc table, which will be used in the next notebook)
 * 3- Execute notebook src/model.ipynb (make sure this notebook is reading orc table downloaded in the previous step)
-* 4- In order to use the frontend visualization, donwload the repository to local, then execute the following steps in de cli (linux):
+* 4- In order to use the frontend visualization, donwload the repository to local, then execute the following steps in the cli (linux):
 ```
 cd twitter-category-nlp/frontend/
 streamlit run app.py
