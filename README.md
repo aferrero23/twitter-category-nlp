@@ -11,7 +11,7 @@ This project aims to classify tweets between democrats or republicans from EEUU 
 
 Welcome to my project! Here you will find all the code which is needed for:  
   * 1- Download tweets from a particular user (you will need you personal tokens from [Twitter Developer Portal](https://developer.twitter.com/en)). Info from Members of Congress can be found [here](https://triagecancer.org/congressional-social-media)
-  * 2- Data cleaning, data engineering and data visualizacions
+  * 2- Data cleaning, data engineering and data visualizations
   * 3- NLP algorithms and conclusions  
   * 4- Frontend with streamlit to try your own tweet
 
