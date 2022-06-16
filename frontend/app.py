@@ -43,13 +43,10 @@ st.subheader("Try it yourself!")
 
 # Text Input
  
-# save the input text in the variable 'name'
-# first argument shows the title of the text input box
-# second argument displays a default text inside the text input area
+# save the input text in the variable 'tweet'
 tweet = st.text_input("Enter your tweet", "")
  
-# display the name when the submit button is clicked
-# .title() is used to get the input text string
+# display the submit button is clicked
 if(st.button('Submit')):
     pred_word, confidence = process_tweet(tweet, model, vectorizer)
     result = f'Your tweet is {pred_word} with a confidence of {confidence:.2%}'
