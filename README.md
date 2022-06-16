@@ -35,6 +35,7 @@ In order to replicate the project, the steps are the following:
 │  
 │───model  
 │  
+│───frontend  
 │  
 ├───src  
 │   ├──   model.ipynb  
