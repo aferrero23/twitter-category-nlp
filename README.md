@@ -29,17 +29,11 @@ streamlit run app.py
 ```
   
 ## Tree
-
-│   .gitignore  
-│   CHANGELOG.MD  
-│   README.md  
-│   requirements.txt  
-│   
 │───data  
 │  
-│───imgs  
-│  
 │───frontend  
+│  
+│───imgs  
 │  
 │───model  
 │  
@@ -47,3 +41,10 @@ streamlit run app.py
 │   ├──   model.ipynb  
 │   ├── EDA.ipynb  
 │   ├── twitter_extractor.ipynb  
+│   
+│   
+│   .gitignore  
+│   CHANGELOG.MD  
+│   README.md  
+│   requirements.txt  
+│   
