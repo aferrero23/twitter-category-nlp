@@ -47,4 +47,3 @@ streamlit run app.py
 │   CHANGELOG.MD  
 │   README.md  
 │   requirements.txt  
-│   
