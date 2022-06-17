@@ -46,4 +46,5 @@ streamlit run app.py
 │   .gitignore  
 │   CHANGELOG.MD  
 │   README.md  
+│   memory.pdf  
 │   requirements.txt  
