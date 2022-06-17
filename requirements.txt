@@ -12,5 +12,4 @@ tensorflow
 tensorflow-hub
 tensorflow-text
 stylecloud
-pickle
 streamlit
